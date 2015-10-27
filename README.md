@@ -8,8 +8,9 @@ The design phase that was completed in week 1 will be completed in week 2. The b
 
 **Class 1**
 
-1. Complete project design
-2. Create the basic HTML site structure
+1. Project planning
+2. Complete project design
+3. Create the basic HTML site structure
 
 **Class 2**
 
