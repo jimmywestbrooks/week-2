@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Freire Charter Extracurricular Activity Portal</title>
-
+    <title>My Nav Bar</title>
+    <!--I am a comment. I am used to leave notes that are not displayed in the browser-->
+    <!--My CSS starts here-->
+    <style type="text/css">
+      ul{
+        list-style: none;
+      }
+      li{
+        display: inline;
+      }
+      a{
+        color: white;
+      }
+      nav{
+        background-color: black;
+        height: 40px;
+      }
+    </style><!--My CSS ends here-->
   </head>
+  <!--All content starts here-->
   <body>
-      <div>
-        <ul>
-          <li><a href="#activities">View Activities</a></li>
-          <li><a href="#request">Request Activities</a></li>
-        </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
+    </nav>
   </body>
 </html>
